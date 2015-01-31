@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+      <% data.team.each do |team_member| %>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card">
+            <%= image_tag team_member.picture, class: "img-circle"%>
+          </div>
+        </div>
+        <%end%>
+    </div>
+</div>

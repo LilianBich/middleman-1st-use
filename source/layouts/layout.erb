@@ -36,8 +36,8 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
+              <% link_to "/team.html" do %>
+                <i class="fa fa-user"></i> Team
               <% end %>
             </li>
             <li>
@@ -58,6 +58,17 @@
       </div><!-- /.container-fluid -->
     </nav>
     <%= yield %>
+    <!-- Footer -->
+    <div id="footer">
+      <ul class="list-inline">
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+      <p>Stylus is a fictive product by LeWagon</p>
+
+    </div>
   </body>
 
 </html>
